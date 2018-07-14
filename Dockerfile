@@ -7,7 +7,7 @@ WORKDIR /usr/app/strapi-node/strapi-node
 RUN npm install 
 
 
-EXPOSE 1337
-
-
 CMD ["npm start"]
+
+
+EXPOSE 1337
