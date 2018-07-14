@@ -7,7 +7,7 @@ WORKDIR /usr/app/strapi-node/strapi-node
 RUN npm install 
 
 
-CMD ["npm start"]
+CMD ["node server.js"]
 
 
 EXPOSE 1337
