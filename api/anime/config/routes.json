@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/anime",
+      "handler": "Anime.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anime/count",
+      "handler": "Anime.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/anime/:_id",
+      "handler": "Anime.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/anime",
+      "handler": "Anime.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/anime/:_id",
+      "handler": "Anime.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/anime/:_id",
+      "handler": "Anime.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

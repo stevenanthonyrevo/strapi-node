@@ -1,0 +1,58 @@
+{
+  "article": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "coucou": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": "WYSIWYG"
+      },
+      "code": {
+        "appearance": ""
+      }
+    }
+  },
+  "tag": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "category": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "reference": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "anime": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "episode": {
+        "appearance": ""
+      },
+      "quotes": {
+        "appearance": ""
+      },
+      "summary": {
+        "appearance": ""
+      },
+      "seasons": {
+        "appearance": ""
+      }
+    }
+  }
+}

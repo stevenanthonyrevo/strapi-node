@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "anime",
+    "description": "This is a collection of anime in a JSON file --> open source admin panel provided by strapi. "
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "episode": {
+      "type": "string"
+    },
+    "quotes": {
+      "type": "json"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "seasons": {
+      "type": "integer"
+    }
+  }
+}
